@@ -26,10 +26,11 @@ for i in range(x):
 
 print("------------------------------------")
 print()
+
 res = [[0 for x in range(x)] for y in range(y)]
 
 for i in range(len(matrix1)):
-    for j in range(len(matrix2[0])):
+    for j in range(len(matrix2)):
         for k in range(len(matrix2)):
 
 # resulted matrix
